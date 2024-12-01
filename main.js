@@ -241,99 +241,100 @@ function calculator(num1, num2, operation){
 
 
 // Exercise 1: Manipulating an Array
-console.log("Exercise 1: Manipulating an Array");
-const shoppingList = ["milk", "bread", "eggs", "butter"];
+// console.log("Exercise 1: Manipulating an Array");
+// const shoppingList = ["milk", "bread", "eggs", "butter"];
 // Solution Example:
-shoppingList.push("cheese"); // Add "cheese" to the end of the array
-shoppingList.shift(); // Remove the first item from the array
-const eggIndex = shoppingList.indexOf("eggs");
-if (eggIndex !== -1) {
-  shoppingList[eggIndex] = "almond milk"; // Replace "eggs" with "almond milk"
-}
-console.log("Updated shopping list (example):", shoppingList);
+// shoppingList.push("cheese"); // Add "cheese" to the end of the array
+// shoppingList.shift(); // Remove the first item from the array
+// const eggIndex = shoppingList.indexOf("eggs");
+// if (eggIndex !== -1) {
+//   shoppingList[eggIndex] = "almond milk"; // Replace "eggs" with "almond milk"
+// }
+// console.log("Updated shopping list (example):", shoppingList);
 
 // Practice:
-const books = ["fiction", "mystery", "thriller", "science"];
+// const books = ["fiction", "mystery", "thriller", "science"];
 // 1. Add "romance" to the array.
 // 2. Remove the last item.
 // 3. Replace "thriller" with "biography".
 // Print the final array after changes.
 
 // Exercise 2: Array Iteration
-console.log("\nExercise 2: Array Iteration");
-const numbers = [10, 15, 20, 25, 30];
+// console.log("\nExercise 2: Array Iteration");
+// const numbers = [10, 15, 20, 25, 30];
 // Solution Example:
-numbers.forEach((number) => console.log("Doubled:", number * 2)); // Multiply by 2
+// numbers.forEach((number) => console.log("Doubled:", number * 2)); // Multiply by 2
 
 // Practice:
-const ages = [12, 18, 25, 30, 45];
+// const ages = [12, 18, 25, 30, 45];
 // 1. Use a loop to print each age incremented by 1.
 // 2. Use forEach to print whether each age is even or odd.
 
 // Exercise 3: Working with Array Methods
-console.log("\nExercise 3: Working with Array Methods");
-const scores = [45, 67, 89, 34, 100, 76, 92];
+// console.log("\nExercise 3: Working with Array Methods");
+// const scores = [45, 67, 89, 34, 100, 76, 92];
 // Solution Example:
-const highScores = scores.filter(score => score > 70); // Filter scores above 70
-console.log("Scores above 70 (example):", highScores);
-const boostedScores = scores.map(score => score + 10); // Boost each score by 10
-console.log("Boosted scores (example):", boostedScores);
-const totalScore = scores.reduce((sum, score) => sum + score, 0); // Sum of scores
-console.log("Total score (example):", totalScore);
+// const highScores = scores.filter(score => score > 70); // Filter scores above 70
+// console.log("Scores above 70 (example):", highScores);
+// const boostedScores = scores.map(score => score + 10); // Boost each score by 10
+// console.log("Boosted scores (example):", boostedScores);
+// const totalScore = scores.reduce((sum, score) => sum + score, 0); // Sum of scores
+// console.log("Total score (example):", totalScore);
 
 // Practice:
-const temperatures = [32, 45, 28, 40, 50];
+// const temperatures = [32, 45, 28, 40, 50];
 // 1. Use `filter()` to get temperatures above 35.
 // 2. Use `map()` to convert all temperatures to Fahrenheit (Celsius * 9/5 + 32).
 // 3. Use `reduce()` to find the total sum of all temperatures.
 
 // Exercise 4: Sorting and Reversing
-console.log("\nExercise 4: Sorting and Reversing");
-const names = ["John", "Alice", "Bob", "Eve", "Chris"];
+// console.log("\nExercise 4: Sorting and Reversing");
+// const names = ["John", "Alice", "Bob", "Eve", "Chris"];
 // Solution Example:
-names.sort(); // Sort alphabetically
-console.log("Sorted names (example):", names);
-names.reverse(); // Reverse the array
-console.log("Reversed names (example):", names);
-names.push("Zara"); // Add Zara and re-sort
-names.sort();
-console.log("Final sorted names (example):", names);
+// names.sort(); // Sort alphabetically
+// console.log("Sorted names (example):", names);
+// names.reverse(); // Reverse the array
+// console.log("Reversed names (example):", names);
+// names.push("Zara"); // Add Zara and re-sort
+// names.sort();
+// console.log("Final sorted names (example):", names);
 
 // Practice:
-const cities = ["Paris", "London", "Tokyo", "New York"];
+// const cities = ["Paris", "London", "Tokyo", "New York"];
 // 1. Sort the array alphabetically.
 // 2. Reverse the array.
 // 3. Add "Sydney" to the array and re-sort it.
 
 // Exercise 5: Nested Arrays
-console.log("\nExercise 5: Nested Arrays");
-const matrix = [
-  ["X", "O", "X"],
-  ["O", "X", "O"],
-  ["X", " ", "O"]
-];
+// console.log("\nExercise 5: Nested Arrays");
+// const matrix = [
+//   ["X", "O", "X"],
+//   ["O", "X", "O"],
+//   ["X", " ", "O"]
+// ];
 // Solution Example:
-matrix.forEach(row => console.log(row.join(" "))); // Print each row
+// matrix.forEach(row => console.log(row.join(" "))); // Print each row
 
-function getRow(matrix, rowIndex) {
-  return matrix[rowIndex];
-}
-console.log("Row 1 (example):", getRow(matrix, 1));
+// function getRow(matrix, rowIndex) {
+//   return matrix[rowIndex];
+// }
+// console.log("Row 1 (example):", getRow(matrix, 1));
 
-function getColumn(matrix, colIndex) {
-  return matrix.map(row => row[colIndex]);
-}
-console.log("Column 2 (example):", getColumn(matrix, 2));
+// function getColumn(matrix, colIndex) {
+//   return matrix.map(row => row[colIndex]);
+// }
+// console.log("Column 2 (example):", getColumn(matrix, 2));
 
 // Practice:
-const grid = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9]
-];
+// const grid = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9]
+// ];
 // 1. Write a function to return the diagonal from top-left to bottom-right.
 // 2. Write a function to return all even numbers from the grid.
 
 
 
+// Lesson #6 objects 
 
