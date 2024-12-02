@@ -86,7 +86,7 @@ const movie = {
   // 1. Uses `Object.entries()` to filter out only string properties.
   // 2. Returns a new object containing only the string properties.
   
-  const mixedData = {
+  const mixedDataLesson6 = {
     name: "Monitor",
     price: 299,
     brand: "Dell",
